@@ -1,0 +1,3 @@
+# POINTER ARRAYS AND STRING
+- USER: katiamiyu
+- DATE: 07-12-2023
