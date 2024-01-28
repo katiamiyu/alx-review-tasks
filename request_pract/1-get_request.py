@@ -13,3 +13,8 @@ if __name__ == '__main__':
     payload = {'firstName': 'ade', 'lastName': 'bayo'}
     r = requests.get("http://httpbin.org/get", params=payload)
     print(f'{r.status_code} for {r.url}')
+    print()
+    print(r.content)
+    print()
+    print(r.text)
+    print(len(r.text))
